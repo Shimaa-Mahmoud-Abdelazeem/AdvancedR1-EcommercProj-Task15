@@ -1,0 +1,11 @@
+a,button{
+  background-color:black;
+  color: white;
+}
+a:hover,button:hover{
+  color: black;
+  background-color:white;
+}
+a{
+  margin-right: 20px;
+}

@@ -1,0 +1,19 @@
+<p>product-view works!</p>
+<div class="cotainer">
+  <div class="row">
+    <div class="col-6 "style="margin: 0 auto;">
+      <div class="card" >
+        <div class="card-header text-center">
+          <h4>Product Details</h4>
+        </div>
+        <div class="card-body text-center" *ngIf="product |async as item" >
+          <img   width="100px" height="100px" [src]="item.image" alt="{{ item.title }}">
+          <h6 class="card-title  mt-3" >{{item.title}}</h6>
+          <p class="card-text">Category: {{item.category}}</p>
+          <p class="card-text">Price : ${{item.price}}</p>
+          <a href="#" class="btn" [routerLink]="['/']">Go Back</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

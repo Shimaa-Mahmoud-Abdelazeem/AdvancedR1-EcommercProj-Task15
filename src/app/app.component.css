@@ -1,0 +1,15 @@
+
+.badge {
+  background-color: #e7a93f;
+  margin-left: 5px;
+  POSITION: absolute;
+  BOTTOM: 27PX;
+}
+.footer{
+  background-color: black;
+  height: 6rem;
+  width: 100%;
+  color: white;
+  padding-top: 40px;
+}
+

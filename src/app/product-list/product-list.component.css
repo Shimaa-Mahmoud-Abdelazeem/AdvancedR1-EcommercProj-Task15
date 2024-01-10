@@ -1,0 +1,26 @@
+
+.card{
+  width: 25rem;
+}
+a,button{
+  background-color: #e7a93f;
+
+}
+a:hover,button:hover{
+  color: white;
+  background-color: black;
+}
+button{
+  position: absolute;
+  left: 15%;
+  bottom: 5%;
+}
+a{
+  position: absolute;
+  right: 15%;
+  bottom: 5%;
+}
+img{
+  margin: 0 auto;
+
+}
